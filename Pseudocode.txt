@@ -1,0 +1,21 @@
+How to order food via online apps
+
+read and write 'chart' with array 
+read and write 'payment' with string
+
+while store 'loop' = true
+    do 
+    print food list
+    store chart.push food
+    if chart is done 
+        if payment=e-wallet
+            order proceed
+            set 'loop' with false
+        end if
+    end if 
+end while 
+
+drive.wait()
+if payment=cash
+    driver.pay()
+end if
